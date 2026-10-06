@@ -1,0 +1,37 @@
+{
+  "id": "trip-osaka-5d",
+  "title": "大阪 5 日遊",
+  "country": "JP",
+  "country_name": "日本",
+  "start": "2026-12-08",
+  "end": "2026-12-12",
+  "days": [
+    {"day": 1, "date": "2026-12-08", "city": "大阪", "items": [
+      {"time": "10:00", "spot_id": "osaka_castle"},
+      {"time": "13:00", "spot_id": "kuromon"},
+      {"time": "16:00", "spot_id": "tsutenkaku"},
+      {"time": "18:00", "spot_id": "dotonbori"}
+    ]},
+    {"day": 2, "date": "2026-12-09", "city": "大阪", "items": [
+      {"time": "08:30", "spot_id": "usj_nintendo"},
+      {"time": "19:00", "spot_id": "umeda_sky"}
+    ]},
+    {"day": 3, "date": "2026-12-10", "city": "京都", "items": [
+      {"time": "07:30", "spot_id": "fushimi"},
+      {"time": "10:00", "spot_id": "kiyomizu"},
+      {"time": "14:00", "spot_id": "arashiyama"},
+      {"time": "17:30", "spot_id": "nishiki"}
+    ]},
+    {"day": 4, "date": "2026-12-11", "city": "京都・奈良", "items": [
+      {"time": "09:00", "spot_id": "kinkakuji"},
+      {"time": "13:00", "spot_id": "nara_park"},
+      {"time": "14:30", "spot_id": "todaiji"},
+      {"time": "16:00", "spot_id": "kasuga"}
+    ]},
+    {"day": 5, "date": "2026-12-12", "city": "大阪", "items": [
+      {"time": "10:00", "spot_id": "shinsaibashi"},
+      {"time": "13:00", "spot_id": "umeda"},
+      {"time": "16:00", "spot_id": "rinku"}
+    ]}
+  ]
+}

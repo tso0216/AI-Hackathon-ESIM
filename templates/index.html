@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>趣分享 Demo</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230E7C86%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-size=%2218%22 text-anchor=%22middle%22 fill=%22white%22%3E去%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+<div class="desk">
+
+  <!-- 左：情境與狀態 -->
+  <aside class="side">
+    <div class="side-block">
+      <div class="side-title">情境</div>
+      <div id="scene-list" class="scene-list"></div>
+    </div>
+
+    <div class="side-block">
+      <div class="side-title">狀態</div>
+      <div class="kv"><span>時間</span><b id="sd-now">—</b></div>
+      <div class="kv"><span>位置</span><b id="sd-loc">—</b></div>
+      <label class="switch-row"><span>回購者</span><input type="checkbox" id="sw-returning"><i></i></label>
+      <label class="switch-row"><span>已購 eSIM</span><input type="checkbox" id="sw-esim"><i></i></label>
+      <div class="kv"><span>綁定</span><b id="sd-bound">—</b></div>
+      <div class="kv"><span>加碼</span><b id="sd-bonus">—</b></div>
+      <div class="kv"><span>額度</span><b id="sd-quota">—</b><button class="link" id="btn-reset-quota">重設</button></div>
+      <div class="kv"><span>AI</span><b id="sd-ai">—</b></div>
+    </div>
+
+    <button class="btn-ghost full" id="btn-reset">重置</button>
+  </aside>
+
+  <!-- 中：手機 -->
+  <main class="stage" id="stage">
+    <div class="phone" id="phone">
+      <div class="notch"></div>
+
+      <div class="screens">
+
+        <!-- 去趣 App 行程頁 -->
+        <section class="screen" data-screen="trip">
+          <div class="hero teal"><div class="hero-title" id="trip-title">大阪 5 日</div></div>
+          <div class="body">
+            <div class="pills scroll-x" id="day-chips"></div>
+            <div id="day-items" class="timeline"></div>
+            <div class="ai-card" id="trip-ai-card"></div>
+          </div>
+        </section>
+
+        <!-- eSIM 網頁賣場 -->
+        <section class="screen" data-screen="store">
+          <div class="top"><div class="urlbar">去趣 eSIM 商店<button class="urlbar-act" data-go="support">客服</button></div></div>
+          <div class="body">
+            <div>
+              <div class="big-title">日本 eSIM</div>
+              <div class="muted">選擇方案與天數</div>
+            </div>
+            <div class="pills" id="store-days"></div>
+            <div id="plan-list" class="plan-list"></div>
+            <button class="plan plan-ai" id="btn-quiz">✦ AI 幫我選</button>
+            <div id="rec-box"></div>
+          </div>
+          <div class="foot"><button class="pill-btn" id="btn-buy">購買</button></div>
+        </section>
+
+        <!-- 客服對話框 -->
+        <section class="screen" data-screen="support">
+          <div class="top chat-hd">
+            <div class="ava">AI</div>
+            <div><div class="top-title">去趣 eSIM 客服</div><div class="online">● 即時回覆</div></div>
+          </div>
+          <div class="band"></div>
+          <div class="body chat" id="support-log"></div>
+          <div class="suggest"><div class="pills scroll-x" id="support-chips"></div></div>
+          <form class="composer" id="support-form">
+            <input placeholder="輸入問題…" autocomplete="off"><button>↑</button>
+          </form>
+        </section>
+
+        <!-- 景點頁「問問經驗」 -->
+        <section class="screen" data-screen="spot">
+          <div class="hero slate">
+            <div class="hero-name" id="spot-name">清水寺</div>
+            <div class="hero-sub" id="spot-area"></div>
+          </div>
+          <div class="tabs" id="spot-tabs">
+            <button data-tab="intro">介紹</button><button data-tab="reviews">評論</button><button data-tab="ask" class="on">問問經驗</button>
+          </div>
+          <div class="band"></div>
+          <div class="body" id="spot-body">
+            <div class="tab-pane" data-pane="intro"></div>
+            <div class="tab-pane" data-pane="reviews"></div>
+            <div class="tab-pane on" data-pane="ask">
+              <div class="sec-title">問問其他人的經驗</div>
+              <div class="chat" id="spot-log"></div>
+            </div>
+          </div>
+          <div class="suggest" id="spot-suggest"><div class="muted small">其他人也問</div><div class="pills scroll-x" id="spot-chips"></div></div>
+          <form class="composer" id="spot-form">
+            <input placeholder="問某時段的經驗…" autocomplete="off"><button>↑</button>
+          </form>
+        </section>
+
+        <!-- 旅途中 App 問答 -->
+        <section class="screen" data-screen="live">
+          <div class="top">
+            <div class="row between"><div class="top-title">旅途中問答</div><span class="quota" id="live-quota"></span></div>
+            <div class="loc-pill" id="live-loc">● 目前位置：—</div>
+          </div>
+          <div class="band"></div>
+          <div class="body chat" id="live-log"></div>
+          <div class="reports" id="live-reports"></div>
+          <div class="suggest"><div class="pills scroll-x" id="live-chips"></div></div>
+          <form class="composer" id="live-form">
+            <input placeholder="問問現場近況…" autocomplete="off"><button>↑</button>
+          </form>
+        </section>
+
+        <!-- 分享現場經驗 -->
+        <section class="screen" data-screen="share">
+          <div class="top">
+            <div class="top-title">分享現場經驗</div>
+            <div class="loc-pill" id="share-loc">●</div>
+          </div>
+          <div class="band"></div>
+          <div class="body">
+            <div>
+              <div class="sec-title" id="share-prompt">現在排隊大概多久？</div>
+              <div class="teal small">說 30 秒，通過審核即送流量</div>
+            </div>
+            <div class="transcript"><textarea id="share-text" rows="3" placeholder="逐字稿"></textarea></div>
+            <div class="wave" id="wave"></div>
+            <div class="timer" id="share-timer">0:00 / 0:30</div>
+            <div class="sample-row">範例：<button class="link" data-sample="good">正常</button>｜<button class="link" data-sample="bad">亂講</button></div>
+            <div id="share-result"></div>
+          </div>
+          <div class="rec-row">
+            <button class="rec-side" id="btn-rerecord">重錄</button>
+            <button class="mic" id="btn-mic"><span></span></button>
+            <button class="rec-side teal" id="btn-submit-share">送出</button>
+          </div>
+        </section>
+
+        <!-- 我的 -->
+        <section class="screen" data-screen="me">
+          <div class="top"><div class="top-title">我的</div></div>
+          <div class="band"></div>
+          <div class="body" id="me-body"></div>
+        </section>
+      </div>
+
+      <div class="home-bar"></div>
+
+      <div class="push" id="push">
+        <div class="push-app">去</div>
+        <div class="push-text"><b>去趣</b><div id="push-msg"></div></div>
+      </div>
+
+      <div class="sheet-wrap" id="sheet-wrap"><div class="sheet" id="sheet"></div></div>
+      <div class="modal-wrap" id="modal-wrap"><div class="modal" id="modal"></div></div>
+      <div class="toast" id="toast"></div>
+    </div>
+  </main>
+</div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

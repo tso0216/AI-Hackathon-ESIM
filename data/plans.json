@@ -1,0 +1,6 @@
+[
+  {"id": "jp-1gb", "country": "JP", "name": "日本 每日 1GB", "daily_gb": 1, "unlimited": false, "prices": {"3": 149, "5": 199, "7": 269}, "hotspot": true, "carrier": "SoftBank / KDDI", "throttle": "每日流量用完降速 128kbps，當地 00:00 恢復"},
+  {"id": "jp-2gb", "country": "JP", "name": "日本 每日 2GB", "daily_gb": 2, "unlimited": false, "prices": {"3": 219, "5": 299, "7": 399}, "hotspot": true, "carrier": "SoftBank / KDDI", "throttle": "每日流量用完降速 384kbps，當地 00:00 恢復"},
+  {"id": "jp-3gb", "country": "JP", "name": "日本 每日 3GB", "daily_gb": 3, "unlimited": false, "prices": {"3": 279, "5": 379, "7": 499}, "hotspot": true, "carrier": "SoftBank / KDDI", "throttle": "每日流量用完降速 512kbps，當地 00:00 恢復"},
+  {"id": "jp-unl", "country": "JP", "name": "日本 吃到飽", "daily_gb": 99, "unlimited": true, "prices": {"3": 349, "5": 499, "7": 649}, "hotspot": true, "carrier": "SoftBank", "throttle": "每日 10GB 後降速 1Mbps（公平使用）"}
+]

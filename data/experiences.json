@@ -1,0 +1,63 @@
+[
+  {"id": "e001", "spot_id": "kiyomizu", "time": "2025-12-03T07:50", "weather": "晴", "category": "人潮", "summary": "8 點前幾乎沒人，清水舞台可以拍到空景", "source": "traveler", "verified": true},
+  {"id": "e002", "spot_id": "kiyomizu", "time": "2025-12-10T08:20", "weather": "晴", "category": "拍照", "summary": "早上光線柔和，8 點半前舞台人還不多，很好拍", "source": "traveler", "verified": true},
+  {"id": "e003", "spot_id": "kiyomizu", "time": "2025-12-16T09:30", "weather": "陰", "category": "人潮", "summary": "9 點半後旅行團陸續抵達，參道和舞台開始擠", "source": "traveler", "verified": true},
+  {"id": "e004", "spot_id": "kiyomizu", "time": "2025-12-05T10:10", "weather": "晴", "category": "人潮", "summary": "10 點後二年坂、三年坂整條很擠，走路要排", "source": "traveler", "verified": true},
+  {"id": "e005", "spot_id": "kiyomizu", "time": "2024-12-11T08:00", "weather": "晴", "category": "人潮", "summary": "平日 8 點到人很少，9 點後人潮明顯變多", "source": "traveler", "verified": true},
+  {"id": "e006", "spot_id": "kiyomizu", "time": "2025-12-13T09:00", "weather": "晴", "category": "人潮", "summary": "週六 9 點已經滿滿人，假日建議 7 點半前到", "source": "traveler", "verified": true},
+  {"id": "e007", "spot_id": "kiyomizu", "time": "2025-11-22T18:00", "weather": "晴", "category": "排隊", "summary": "紅葉季夜間參拜排隊超過 40 分鐘", "source": "traveler", "verified": true},
+  {"id": "e008", "spot_id": "kiyomizu", "time": "2025-12-18T15:30", "weather": "雨", "category": "天氣", "summary": "雨天坂道石階很滑，但人比平常少", "source": "traveler", "verified": true},
+  {"id": "e009", "spot_id": "kiyomizu", "time": "2025-07-15T10:00", "weather": "晴", "category": "天氣", "summary": "夏天爬坡很熱，記得帶水和帽子", "source": "blogger", "verified": false},
+  {"id": "e010", "spot_id": "kiyomizu", "time": "2026-12-10T10:40", "weather": "陰", "category": "人潮", "summary": "現在舞台人很多，拍照要等位置", "source": "traveler", "verified": true},
+
+  {"id": "e101", "spot_id": "arashiyama", "time": "2025-12-04T08:00", "weather": "晴", "category": "人潮", "summary": "8 點前竹林幾乎沒人，適合拍照", "source": "traveler", "verified": true},
+  {"id": "e102", "spot_id": "arashiyama", "time": "2025-12-09T13:30", "weather": "晴", "category": "人潮", "summary": "晴天下午竹林小徑人擠人，很難拍到沒人的畫面", "source": "traveler", "verified": true},
+  {"id": "e103", "spot_id": "arashiyama", "time": "2025-12-17T14:00", "weather": "雨", "category": "天氣", "summary": "下雨天人潮少一半，竹林在雨中更有氛圍，但石板路濕滑", "source": "traveler", "verified": true},
+  {"id": "e104", "spot_id": "arashiyama", "time": "2025-11-30T15:00", "weather": "雨", "category": "交通", "summary": "雨天嵐山小火車部分班次停駛，去之前先查", "source": "traveler", "verified": true},
+  {"id": "e105", "spot_id": "arashiyama", "time": "2025-12-12T16:00", "weather": "晴", "category": "美食", "summary": "渡月橋旁的抹茶霜淇淋排隊約 15 分鐘", "source": "traveler", "verified": true},
+  {"id": "e106", "spot_id": "arashiyama", "time": "2024-12-20T14:30", "weather": "雨", "category": "人潮", "summary": "平日下午小雨，入口稍擠，往大河內山莊方向人變少", "source": "traveler", "verified": true},
+  {"id": "e107", "spot_id": "arashiyama", "time": "2025-06-10T11:00", "weather": "晴", "category": "拍照", "summary": "從野宮神社那頭進竹林，比較好拍", "source": "blogger", "verified": false},
+  {"id": "e108", "spot_id": "arashiyama", "time": "2026-12-10T12:30", "weather": "雨", "category": "人潮", "summary": "下雨人比平常少，竹林內可以拍到空景", "source": "traveler", "verified": true},
+  {"id": "e109", "spot_id": "arashiyama", "time": "2026-12-10T13:20", "weather": "雨", "category": "天氣", "summary": "小雨，路面濕滑，建議穿防滑鞋", "source": "traveler", "verified": true},
+  {"id": "e110", "spot_id": "arashiyama", "time": "2026-12-10T13:58", "weather": "雨", "category": "排隊", "summary": "入口排隊約 10 分鐘，竹林內人潮還好，可正常拍照", "source": "traveler", "verified": true},
+
+  {"id": "e201", "spot_id": "fushimi", "time": "2025-12-10T07:30", "weather": "晴", "category": "人潮", "summary": "早上 7 點半千本鳥居人很少，可以拍到整排空鳥居", "source": "traveler", "verified": true},
+  {"id": "e202", "spot_id": "fushimi", "time": "2025-12-14T11:00", "weather": "晴", "category": "人潮", "summary": "週日中午入口千本鳥居很擠，爬到四辻後人變少", "source": "traveler", "verified": true},
+  {"id": "e203", "spot_id": "fushimi", "time": "2025-12-02T16:30", "weather": "晴", "category": "拍照", "summary": "傍晚爬到四辻看夕陽，下山天色暗要帶手電筒", "source": "traveler", "verified": true},
+  {"id": "e204", "spot_id": "fushimi", "time": "2024-12-18T09:00", "weather": "陰", "category": "交通", "summary": "JR 稻荷站出站就到，比京阪伏見稻荷站近", "source": "blogger", "verified": false},
+  {"id": "e205", "spot_id": "fushimi", "time": "2026-12-10T07:45", "weather": "陰", "category": "人潮", "summary": "早上人不多，千本鳥居可以拍到空景", "source": "traveler", "verified": true},
+
+  {"id": "e301", "spot_id": "nishiki", "time": "2025-12-10T09:50", "weather": "晴", "category": "人潮", "summary": "早上 10 點前店家剛開，人少好逛", "source": "traveler", "verified": true},
+  {"id": "e302", "spot_id": "nishiki", "time": "2025-12-12T13:00", "weather": "晴", "category": "人潮", "summary": "中午後人潮多，走路要側身", "source": "traveler", "verified": true},
+  {"id": "e303", "spot_id": "nishiki", "time": "2025-12-15T17:30", "weather": "陰", "category": "美食", "summary": "傍晚 6 點前很多攤位就收了，別太晚來", "source": "traveler", "verified": true},
+  {"id": "e304", "spot_id": "nishiki", "time": "2025-12-09T10:20", "weather": "晴", "category": "美食", "summary": "玉子燒和豆乳甜甜圈排隊約 10 分鐘", "source": "traveler", "verified": true},
+  {"id": "e305", "spot_id": "nishiki", "time": "2026-12-10T11:00", "weather": "陰", "category": "人潮", "summary": "中午前就很擠了，玉子燒要排 10 分鐘", "source": "traveler", "verified": true},
+
+  {"id": "e401", "spot_id": "usj_nintendo", "time": "2025-12-06T09:30", "weather": "晴", "category": "排隊", "summary": "週六開園一小時內整理券就發完，一入園先拿", "source": "traveler", "verified": true},
+  {"id": "e402", "spot_id": "usj_nintendo", "time": "2025-12-10T11:30", "weather": "晴", "category": "排隊", "summary": "平日任天堂區入區排 60 分鐘，瑪利歐賽車等 90 分鐘", "source": "traveler", "verified": true},
+  {"id": "e403", "spot_id": "usj_nintendo", "time": "2025-12-24T14:00", "weather": "晴", "category": "排隊", "summary": "聖誕節人潮爆滿，不買快速通關幾乎玩不到", "source": "traveler", "verified": true},
+  {"id": "e404", "spot_id": "usj_nintendo", "time": "2024-12-12T09:00", "weather": "陰", "category": "排隊", "summary": "平日開園後直衝任天堂區，耀西冒險只排 20 分鐘", "source": "traveler", "verified": true},
+  {"id": "e405", "spot_id": "usj_nintendo", "time": "2025-08-14T10:00", "weather": "晴", "category": "天氣", "summary": "夏天排隊區很曬，記得帶小電扇", "source": "blogger", "verified": false},
+  {"id": "e406", "spot_id": "usj_nintendo", "time": "2026-12-09T09:40", "weather": "晴", "category": "排隊", "summary": "整理券 9 點半已發到 13 點場次，要入區的快去拿", "source": "traveler", "verified": true},
+  {"id": "e407", "spot_id": "usj_nintendo", "time": "2026-12-09T10:30", "weather": "晴", "category": "排隊", "summary": "瑪利歐賽車現在等 100 分鐘，耀西冒險 40 分鐘", "source": "traveler", "verified": true},
+
+  {"id": "e501", "spot_id": "osaka_castle", "time": "2025-12-08T10:00", "weather": "晴", "category": "排隊", "summary": "天守閣平日上午排隊約 15 分鐘", "source": "traveler", "verified": true},
+  {"id": "e502", "spot_id": "osaka_castle", "time": "2025-12-13T14:00", "weather": "晴", "category": "排隊", "summary": "週末下午天守閣要排 40 分鐘，建議早點來", "source": "traveler", "verified": true},
+  {"id": "e503", "spot_id": "osaka_castle", "time": "2025-12-01T09:00", "weather": "晴", "category": "拍照", "summary": "西之丸庭園拍天守閣角度最好", "source": "blogger", "verified": false},
+
+  {"id": "e601", "spot_id": "kuromon", "time": "2025-12-08T11:00", "weather": "晴", "category": "美食", "summary": "海鮮串偏觀光價，干貝燒一串約 1000 円", "source": "traveler", "verified": true},
+  {"id": "e602", "spot_id": "kuromon", "time": "2025-12-11T09:30", "weather": "陰", "category": "人潮", "summary": "早上 9 點半人還不多，10 點半後很擠", "source": "traveler", "verified": true},
+  {"id": "e603", "spot_id": "kuromon", "time": "2025-12-07T16:00", "weather": "晴", "category": "美食", "summary": "下午 4 點後很多店收攤", "source": "traveler", "verified": true},
+
+  {"id": "e701", "spot_id": "dotonbori", "time": "2025-12-08T19:00", "weather": "晴", "category": "人潮", "summary": "晚上固力果看板前人超多，拍照要卡位", "source": "traveler", "verified": true},
+  {"id": "e702", "spot_id": "dotonbori", "time": "2025-12-10T21:00", "weather": "晴", "category": "美食", "summary": "章魚燒名店晚上排 20 分鐘", "source": "traveler", "verified": true},
+  {"id": "e703", "spot_id": "dotonbori", "time": "2025-12-20T18:00", "weather": "雨", "category": "天氣", "summary": "下雨也不太受影響，旁邊商店街有屋頂", "source": "traveler", "verified": true},
+
+  {"id": "e801", "spot_id": "kinkakuji", "time": "2025-12-11T09:00", "weather": "晴", "category": "人潮", "summary": "9 點開門就進場，前 30 分鐘拍照位置好卡", "source": "traveler", "verified": true},
+  {"id": "e802", "spot_id": "kinkakuji", "time": "2025-12-14T11:00", "weather": "晴", "category": "人潮", "summary": "週日上午人非常多，觀景點要排隊拍", "source": "traveler", "verified": true},
+  {"id": "e803", "spot_id": "kinkakuji", "time": "2025-01-10T10:00", "weather": "雪", "category": "拍照", "summary": "下雪的金閣寺很美但可遇不可求", "source": "blogger", "verified": false},
+
+  {"id": "e901", "spot_id": "nara_park", "time": "2025-12-11T13:00", "weather": "晴", "category": "設施", "summary": "鹿仙貝 200 円，鹿會頂人，帶小孩要注意", "source": "traveler", "verified": true},
+  {"id": "e902", "spot_id": "nara_park", "time": "2025-12-06T10:00", "weather": "晴", "category": "人潮", "summary": "週末東大寺周邊人很多，鹿也比較兇", "source": "traveler", "verified": true},
+  {"id": "e903", "spot_id": "nara_park", "time": "2025-12-16T15:00", "weather": "陰", "category": "交通", "summary": "近鐵奈良站走到東大寺約 20 分鐘", "source": "traveler", "verified": true}
+]

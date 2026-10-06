@@ -1,0 +1,12 @@
+{
+  "kiyomizu": [
+    {"user": "Amy", "date": "2023-04-02", "stars": 5, "text": "櫻花季很美！"},
+    {"user": "旅人小陳", "date": "2022-11-20", "stars": 4, "text": "紅葉很漂亮，人有點多"}
+  ],
+  "arashiyama": [
+    {"user": "Ken", "date": "2023-08-15", "stars": 4, "text": "竹林很壯觀，夏天很熱"}
+  ],
+  "usj_nintendo": [
+    {"user": "Mia", "date": "2024-03-10", "stars": 5, "text": "瑪利歐賽車超好玩"}
+  ]
+}
